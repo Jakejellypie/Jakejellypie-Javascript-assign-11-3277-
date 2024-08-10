@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-11, Dynamic shopping List</title>
+    <!-- adding an external css -->
+    <link rel = "stylesheet" href = "style.css">
+    <!-- adding an external js -->
+    <script defer src = "script.js"></script>
+</head>
+<body>
+    <!-- creating a section for the header at the top -->
+    <section class = header>
+        <h1 class = "title">Dynamic Shopping List Challenge.</h1>
+    </section>
+
+    <!-- creating a section for the entire list itself -->
+    <section class = "listContainer">
+        <h1 class = "shoppingHeader">My Shopping List</h1>
+        <!-- creating a textinput and label for the user to enter an item of their choice -->
+        <label for="itemInput">Please enter an item:</label>
+        <input type="text" id="itemInput" name="itemInput">
+        <!-- creating a button for the itemInput-->
+        <button for = "itemInput" id = enterButton class = enterButton>Enter</button>
+        <section class = "listBackground">
+            <ul class = "unorderedList">
+            </ul>
+        </section>
+    </section>
+    
+</body>
+</html>

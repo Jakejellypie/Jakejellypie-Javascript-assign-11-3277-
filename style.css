@@ -1,0 +1,118 @@
+/* Remove default margin around the body */
+body {
+    margin: 0;
+}
+
+/* Change cursor to pointer when hovering over buttons */
+button:hover {
+    cursor: pointer;
+}
+
+/* Style for header section */
+.header {
+    /* Semi-transparent background color */
+    background-color: #bf8c8c24;
+
+    /* Set the height of the header */
+    height: 4rem;
+
+    /* Bottom border with semi-transparent color */
+    border-bottom: 2px solid #00000042;
+}
+
+/* Style for the title within the header */
+.title {
+    /* Remove default margin */
+    margin: 0;
+
+    /* Center-align the text */
+    text-align: center;
+
+    /* Add padding at the top */
+    padding-top: 1rem;
+
+    /* Use monospace font */
+    font-family: monospace;
+
+    /* Set font size */
+    font-size: 24px;
+
+    /* Use oblique font style */
+    font-style: oblique;
+}
+
+/* Container for the list with a centered layout */
+.listContainer {
+    /* Set width based on content */
+    width: fit-content;
+
+    /* Light pink background color */
+    background: #fff3f3;
+
+    /* Add padding inside the container */
+    padding: 2rem;
+
+    /* Rounded corners */
+    border-radius: 1rem;
+
+    /* Center horizontally and add top margin */
+    margin: 5rem auto auto auto;
+
+    /* Center-align the text */
+    text-align: center;
+
+    /* Box shadow with semi-transparent color */
+    box-shadow: #0000005e 1px 1px 5px;
+}
+
+/* Background style for the list section */
+.listBackground {
+    /* White background color */
+    background-color: white;
+
+    /* Rounded corners */
+    border-radius: 1rem;
+
+    /* Add padding inside the element */
+    padding: 1rem;
+
+    /* Add top margin */
+    margin-top: 15px;
+}
+
+/* Hide the element but keep its space */
+.remove {
+    /* Hide the element from view */
+    visibility: hidden;
+}
+
+/* Style for list items */
+.newListItem {
+    /* Use grid layout */
+    display: grid;
+
+    /* Define column widths */
+    grid-template-columns: .7fr .3fr;
+
+    /* Set width of list items */
+    width: 14rem;
+
+    /* Allow words to wrap anywhere */
+    word-wrap: anywhere;
+
+    /* Space between grid items */
+    grid-gap: 3rem;
+
+    /* Add bottom margin */
+    margin-bottom: 10px;
+}
+
+/* Style for the delete button */
+.newButton {
+    /* Set button height */
+    height: 2rem;
+    /* Set width to fit-content*/
+    width: fit-content;
+    /* Set a padding for left and right of the button*/
+    padding: 0 5px;
+}
